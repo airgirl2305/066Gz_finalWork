@@ -11,7 +11,30 @@ Thumbs.db
 .vscode/
 
 # Dependency directories
-*/node_modules/
+/node_modules
 
 .env
 sessions/
+
+# from Vite
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+../.vscode/*
+!../.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
